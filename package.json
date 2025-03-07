@@ -1,0 +1,34 @@
+{
+  "name": "sse-simplified",
+  "version": "1.0.0",
+  "description": "Simplified SSE implementation for MCP server",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/example.js",
+    "dev": "tsx src/example.ts",
+    "test:sse": "tsx src/test.ts"
+  },
+  "keywords": [
+    "sse",
+    "server-sent-events",
+    "mcp",
+    "json-rpc"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "eventsource": "^3.0.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/eventsource": "^1.1.15",
+    "@types/node": "^22.0.2",
+    "tsx": "^4.16.5",
+    "typescript": "^5.5.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
