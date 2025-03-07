@@ -18,7 +18,7 @@ This repository contains a simplified version of Server-Sent Events (SSE) implem
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/sse-simplified.git
+git clone https://github.com/petesiki/sse-simplified.git
 cd sse-simplified
 
 # Install dependencies
@@ -31,7 +31,7 @@ npm install
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/sse-simplified.git
+   git clone https://github.com/petesiki/sse-simplified.git
    cd sse-simplified
    ```
 
