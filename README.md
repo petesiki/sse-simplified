@@ -25,21 +25,48 @@ cd sse-simplified
 npm install
 ```
 
-## Usage
+## Getting Started
+
+### Project Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/sse-simplified.git
+   cd sse-simplified
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Build the project:
+   ```bash
+   npm run build
+   ```
 
 ### Running the Example
 
 The example demonstrates a simple client-server interaction using SSE:
 
-```bash
-npm run dev
-```
+1. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-### Running the Tests
+2. The example will automatically start both the server and client components.
+   - The server will be available at `http://localhost:3000/sse`
+   - You should see the client-server communication logs in the console
+
+### Running Tests
 
 The test suite covers various aspects of the SSE implementation:
 
 ```bash
+# Run all tests
+npm test
+
+# Run only SSE-specific tests
 npm run test:sse
 ```
 
